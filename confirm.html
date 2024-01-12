@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+     <span id="sp"><b></b></span>
+
+</body> 
+<style>
+    body{
+        text-align: center;
+        background-color: grey;
+    }
+   span{
+    font-size: 200px;
+    color: gold;
+    position: relative; top: 200px;
+
+   }
+</style>
+<script> 
+    let sp = document.getElementById("sp");
+    let d = confirm(); 
+    if(d){ 
+        sp.innerHTML = "WELCOME"
+    } 
+    else{ 
+        sp.textContent = "THANK YOU"
+    } 
+</script> 
+</html>
